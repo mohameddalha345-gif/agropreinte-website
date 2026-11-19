@@ -1,0 +1,30 @@
+AGROPREINTE SCIENTIFIC CLUB — site web
+
+FICHIERS
+- index.html : contenu et structure
+- style.css  : couleurs, mise en page et adaptation mobile
+- script.js  : menu mobile et lien du podcast
+- assets/    : logo temporaire
+
+OUVRIR SUR ANDROID AVEC ACODE
+1. Décompressez le fichier ZIP.
+2. Ouvrez le dossier Agropreinte-Website dans Acode.
+3. Ouvrez index.html.
+4. Utilisez l'aperçu (Preview) pour afficher le site.
+
+REMPLACER LE LOGO
+Le logo officiel fourni est déjà installé dans assets/logo.jpg. Aucune modification du code n'est nécessaire.
+
+MODIFIER LE PODCAST
+Ouvrez script.js et cherchez :
+const PODCAST_VIDEO_URL = "ScMzIvxBSi4";
+Remplacez ScMzIvxBSi4 par l'identifiant de votre vidéo YouTube.
+Exemple : https://www.youtube.com/watch?v=ABC123
+L'identifiant est ABC123.
+
+À NOTER
+- Le site utilise HTML, CSS et JavaScript simples.
+- Aucun serveur, compte ou base de données n'est nécessaire.
+- Une connexion Internet est nécessaire pour afficher la vidéo YouTube et ouvrir les liens externes.
+- Les textes médicaux sont des informations générales de sensibilisation et ne remplacent pas un avis médical.
+- Le logo présent est un visuel temporaire, pas le logo officiel fourni par le club.
